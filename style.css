@@ -96,10 +96,11 @@ a {
 .team-members{
   display:flex;
   justify-content:center;
+  flex-wrap: wrap
 }
 
 .member{
-  width: 180px;
+  width: 30%;
   display:inline-block;
   margin: 20px;
   text-align: center;
@@ -110,7 +111,7 @@ a {
 }
 
 .member-pic{
-  height: 200px;
+  max-width: 100%;
 }
 
 @media (max-width: 1000px){
